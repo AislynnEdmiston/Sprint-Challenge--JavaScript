@@ -30,22 +30,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+`.map` creates a new array while `.forEach` you have to pass a function into the `()` and it will return the answer for each varible in the array.
+
 2. What is the difference between a function and a method?
+
+A function is used to preform a set of tasks or can create a value within after being invoked.
+A method is implicity passed using the 'this' keyword and is able to operate on data an object created.
 
 3. What is closure?
 
+A closure is a function within another function that has access to the other functions surrounding it.
+
 4. Describe the four rules of the 'this' keyword.
 
+The four rules of the 'this' keyword are Window Binding (catchall of sorts, binds to window object), Implicit Binding (used when invoking a function using dot notation), New Binding (Using the 'this' keyword when creating a new object), and Explicit Binding (using a method on a function like .call() or .bind()).
+
 5. Why do we need super() in an extended class?
+
+The super keyword is needed to call and access the parent object so we can use methods that we used perviously in the parent object.
+
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
